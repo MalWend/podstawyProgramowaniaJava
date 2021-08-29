@@ -22,6 +22,6 @@ public class Car {
         System.out.println("Silnik się uruchomił");
     }
     public void startEngine2 (){
-        System.out.println("Silnik " + model + "został uruchomiony");
+        System.out.println("Silnik " + model + " został uruchomiony");
     }
 }
