@@ -24,4 +24,9 @@ public class Car {
     public void startEngine2 (){
         System.out.println("Silnik " + this.model + " został uruchomiony");
     }
+
+    public void stopEngine(int percent){
+        System.out.println("Silnik został zwolniony o " + percent + " %");
+
+    }
 }

@@ -8,5 +8,7 @@ public class Main {
         Car Mazda = new Car("Fajna", "czerwona", 1999, "petrol");
         Mazda.startEngine();
         Mazda.startEngine2();
+        Opel.stopEngine(20);
+
     }
 }
