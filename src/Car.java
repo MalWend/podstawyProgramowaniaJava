@@ -3,6 +3,15 @@ public class Car {
     public String color;
     public int makeYear;
     public String fuelType;
+    public int engineCapacity;
+    public double tirePressure;
+    public int doorNumber;
+
+    public Car ( int engineCapacity, double tirePressure, int doorNumber){
+        this.engineCapacity = engineCapacity;
+        this.tirePressure = tirePressure;
+        this.doorNumber = doorNumber;
+    }
 
     public Car(){
     }
@@ -28,5 +37,8 @@ public class Car {
     public void stopEngine(int percent){
         System.out.println("Silnik został zwolniony o " + percent + " %");
 
+    }
+    public void newMethod (){
+        System.out.println(this.engineCapacity + this.tirePressure + this.doorNumber);
     }
 }
