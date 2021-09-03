@@ -3,6 +3,10 @@ public class Main {
         System.out.println("Hello World");
         System.out.println("Hello everyone!");
         System.out.println("Hello" + " others!");
+        System.out.println("Hiiiia\tcossss");
+        System.out.println("Hiiiia\n");
+        System.out.println("Hiiiia");
+        System.out.println("Hiiiia \"cossss\"");
 
         Car Opel = new Car();
         Car Mazda = new Car("Fajna", "czerwona", 1999, "petrol");
