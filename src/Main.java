@@ -1,13 +1,17 @@
-public class Main {
-    public static void main (String args[]){
-        String text = "lubie jave";
-        String text2 = new String("Lubie Jave");
-        String text3 = "Lubie jave3";
-        System.out.println(text.length());
-        System.out.println(text2.length());
-        System.out.println(text3.length());
-        System.out.println(text3.indexOf('e'));
-        System.out.println(text3.substring(3,7));
+public class Main{
+    public static void main(String[] args) {
+        int a;
+        int b;
+        a = 10;
+        b = 25;
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a / b);
+        System.out.println(a * b);
+        System.out.println(a % b);
+        System.out.println("a+ b + \"Jaa\" + 4");
+        System.out.println(a+ b + "Jaa" + 4);
+    }
 
     }
-}
+
