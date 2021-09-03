@@ -6,6 +6,8 @@ public class Main {
         System.out.println(text.length());
         System.out.println(text2.length());
         System.out.println(text3.length());
+        System.out.println(text3.indexOf('e'));
+        System.out.println(text3.substring(3,7));
 
     }
 }
