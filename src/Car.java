@@ -41,4 +41,15 @@ public class Car {
     public void newMethod (){
         System.out.println(this.engineCapacity + this.tirePressure + this.doorNumber);
     }
+
+    public void ifIBuy(){
+       if (this.makeYear > 2000) {
+           System.out.println("Kupuję to");
+       }
+       else{
+           System.out.println ("Nie kupuję");
+       }
+
+
+    }
 }
