@@ -3,11 +3,13 @@ public class Main {
         String text = "Dajemy jakiś tekst";
         char Nazwa1 = 'p';
         char Nazwa2 = '2';
+        char Alpha = '\u03B1';
 
         System.out.println(text);
         Character.isDigit(Nazwa1);
         System.out.println(Character.isDigit(Nazwa1));
         System.out.println(Character.isDigit(Nazwa2));
+        System.out.println(Alpha);
 
     }
 }
