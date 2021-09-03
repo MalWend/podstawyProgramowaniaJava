@@ -7,12 +7,15 @@ public class Main {
         System.out.println("Hiiiia\n");
         System.out.println("Hiiiia");
         System.out.println("Hiiiia \"cossss\"");
+        //komentarz
+        /**
 
         Car Opel = new Car();
         Car Mazda = new Car("Fajna", "czerwona", 1999, "petrol");
         Mazda.startEngine();
         Mazda.startEngine2();
         Opel.stopEngine(20);
+         **/
 
     }
 }
