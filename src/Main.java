@@ -1,15 +1,11 @@
 public class Main {
     public static void main (String args[]){
-        String text = "Dajemy jakiś tekst";
-        char Nazwa1 = 'p';
-        char Nazwa2 = '2';
-        char Alpha = '\u03B1';
-
-        System.out.println(text);
-        Character.isDigit(Nazwa1);
-        System.out.println(Character.isDigit(Nazwa1));
-        System.out.println(Character.isDigit(Nazwa2));
-        System.out.println(Alpha);
+        String text = "lubie jave";
+        String text2 = new String("Lubie Jave");
+        String text3 = "Lubie jave3";
+        System.out.println(text.length());
+        System.out.println(text2.length());
+        System.out.println(text3.length());
 
     }
 }
