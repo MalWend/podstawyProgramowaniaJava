@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-        int a;
+        double a;
         int b;
         a = 10;
         b = 25;
