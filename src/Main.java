@@ -17,6 +17,10 @@ public class Main{
         carTable.add(Skoda);
         carTable.add(Fiat);
         carTable.add(Toyota);
+
+        carTable.remove(0);
+        System.out.println(carTable.size());
+        System.out.println(carTable.get(0));
     }
 
     }
